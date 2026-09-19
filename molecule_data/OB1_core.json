@@ -1,0 +1,42 @@
+{
+  "name": "OB1_core",
+  "smiles": "c1ccc(-c2nc3ccccc3o2)cc1",
+  "numAtoms": 15,
+  "numBonds": 17,
+  "atoms": [
+    {"index": 1, "x": 0, "y": -8.1073, "z": 0, "element": "C"},
+    {"index": 2, "x": -1.299, "y": -7.3573, "z": 0, "element": "C"},
+    {"index": 3, "x": -1.299, "y": -5.8573, "z": 0, "element": "C"},
+    {"index": 4, "x": 0, "y": -5.1073, "z": 0, "element": "C"},
+    {"index": 5, "x": 0, "y": -3.6073, "z": 0, "element": "C"},
+    {"index": 6, "x": 1.2135, "y": -2.7256, "z": 0, "element": "N"},
+    {"index": 7, "x": 0.75, "y": -1.299, "z": 0, "element": "C"},
+    {"index": 8, "x": 1.5, "y": 0, "z": 0, "element": "C"},
+    {"index": 9, "x": 0.75, "y": 1.299, "z": 0, "element": "C"},
+    {"index": 10, "x": -0.75, "y": 1.299, "z": 0, "element": "C"},
+    {"index": 11, "x": -1.5, "y": 0, "z": 0, "element": "C"},
+    {"index": 12, "x": -0.75, "y": -1.299, "z": 0, "element": "C"},
+    {"index": 13, "x": -1.2135, "y": -2.7256, "z": 0, "element": "O"},
+    {"index": 14, "x": 1.299, "y": -5.8573, "z": 0, "element": "C"},
+    {"index": 15, "x": 1.299, "y": -7.3573, "z": 0, "element": "C"}
+  ],
+  "bonds": [
+    {"atom1": 1, "atom2": 2, "bondType": 2},
+    {"atom1": 2, "atom2": 3, "bondType": 1},
+    {"atom1": 3, "atom2": 4, "bondType": 2},
+    {"atom1": 4, "atom2": 5, "bondType": 1},
+    {"atom1": 5, "atom2": 6, "bondType": 2},
+    {"atom1": 6, "atom2": 7, "bondType": 1},
+    {"atom1": 7, "atom2": 8, "bondType": 2},
+    {"atom1": 8, "atom2": 9, "bondType": 1},
+    {"atom1": 9, "atom2": 10, "bondType": 2},
+    {"atom1": 10, "atom2": 11, "bondType": 1},
+    {"atom1": 11, "atom2": 12, "bondType": 2},
+    {"atom1": 12, "atom2": 13, "bondType": 1},
+    {"atom1": 4, "atom2": 14, "bondType": 1},
+    {"atom1": 14, "atom2": 15, "bondType": 2},
+    {"atom1": 15, "atom2": 1, "bondType": 1},
+    {"atom1": 13, "atom2": 5, "bondType": 1},
+    {"atom1": 12, "atom2": 7, "bondType": 1}
+  ]
+}
