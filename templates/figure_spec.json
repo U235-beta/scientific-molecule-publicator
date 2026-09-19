@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Scientific Figure Specification",
+  "description": "Specification for generating a publication-quality multi-panel figure",
+  "type": "object",
+  "required": ["journal", "layout", "panels"],
+  "properties": {
+    "journal": {
+      "type": "string",
+      "enum": ["nature", "science", "cell", "acs", "rsc", "elsevier", "default"],
+      "description": "Target journal style"
+    },
+    "double": {
+      "type": "boolean",
+      "default": true,
+      "description": "Use double-column width"
+    },
+    "aspect": {
+      "type": "number",
+      "default": 0.7,
+      "description": "Height/width aspect ratio"
+    },
+    "layout": {
+      "type": "string",
+      "pattern": "^[0-9]+x[0-9]+$",
+      "description": "Grid layout as 'rowsxcols' (e.g., '2x2')"
+    },
+    "panel_labels": {
+      "type": "string",
+      "default": "ABCDEFGHIJKLMNOP",
+      "description": "Panel label characters"
+    },
+    "panels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["line", "bar", "scatter", "heatmap", "text", "image", "molecule", "mechanism"]
+          },
+          "x": {"type": "array", "items": {"type": "number"}},
+          "y_list": {"type": "array", "items": {"type": "array", "items": {"type": "number"}}},
+          "y": {"type": "array", "items": {"type": "number"}},
+          "categories": {"type": "array", "items": {"type": "string"}},
+          "values_list": {"type": "array", "items": {"type": "array", "items": {"type": "number"}}},
+          "data": {"type": "array"},
+          "text": {"type": "string"},
+          "path": {"type": "string"},
+          "stages": {"type": "array", "items": {"type": ["string", "array"]}},
+          "xlabel": {"type": "string"},
+          "ylabel": {"type": "string"},
+          "title": {"type": "string"},
+          "labels": {"type": "array", "items": {"type": "string"}},
+          "colors": {"type": "array", "items": {"type": "string"}},
+          "show_orbitals": {"type": "boolean", "default": true},
+          "show_electron_cloud": {"type": "boolean", "default": true}
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "journal": "nature",
+      "double": true,
+      "layout": "2x2",
+      "panels": [
+        {"type": "line", "x": [0, 1, 2], "y_list": [[1, 4, 9]], "xlabel": "X", "ylabel": "Y"},
+        {"type": "bar", "categories": ["A", "B"], "values_list": [[3, 5]]},
+        {"type": "text", "text": "Key finding"},
+        {"type": "mechanism", "stages": ["Step 1", "Step 2", "Step 3"]}
+      ]
+    }
+  ]
+}
