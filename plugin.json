@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "scientific-molecule-publicator",
+  "version": "2.0.0",
+  "description": "Publication-quality scientific figure generator with visualization advisor workflow. Integrates EDA data profiling, chart selection with active interception, visual QA self-check loop, CJK font support, molecule structure panels, and mechanism diagrams.",
+  "author": "U235-beta",
+  "license": "MIT",
+  "keywords": [
+    "scientific-figures",
+    "publication-quality",
+    "matplotlib",
+    "visualization-advisor",
+    "data-profiling",
+    "chart-selection",
+    "visual-qa",
+    "cjk-fonts",
+    "journal-style",
+    "multi-panel",
+    "molecule-visualization",
+    "mechanism-diagram",
+    "quality-control",
+    "colorblind-safe"
+  ],
+  "skills": [
+    {
+      "name": "scientific-molecule-publicator",
+      "path": "SKILL.md",
+      "description": "Publication-quality figure generation with visualization advisor workflow"
+    }
+  ],
+  "dependencies": {
+    "python": ">=3.9",
+    "packages": [
+      "matplotlib>=3.7",
+      "numpy>=1.24",
+      "seaborn>=0.13",
+      "pandas>=2.0",
+      "scipy>=1.10",
+      "Pillow>=10.0"
+    ]
+  },
+  "optionalDependencies": {
+    "molecular-visualization": "For molecule structure panels",
+    "SciencePlots": "Enhanced journal styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/U235-beta/scientific-molecule-publicator.git"
+  }
+}

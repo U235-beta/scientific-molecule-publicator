@@ -1,0 +1,79 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scientific-molecule-publicator"
+version = "2.0.0"
+description = "Publication-quality scientific figure generator with visualization advisor workflow"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "U235-beta"}]
+keywords = [
+    "scientific-figures",
+    "publication-quality",
+    "matplotlib",
+    "visualization-advisor",
+    "data-profiling",
+    "chart-selection",
+    "visual-qa",
+    "cjk-fonts",
+    "journal-style",
+    "multi-panel",
+    "molecule-visualization",
+    "mechanism-diagram",
+    "quality-control",
+    "colorblind-safe",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib>=3.7",
+    "numpy>=1.24",
+    "seaborn>=0.13",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "Pillow>=10.0",
+]
+
+[project.optional-dependencies]
+molecule = ["molecular-visualization"]
+sciplots = ["SciencePlots>=2.1"]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1.0",
+    "black>=23.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
