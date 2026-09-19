@@ -1,0 +1,39 @@
+{
+  "name": "benzophenone_UV",
+  "smiles": "O=C(c1ccccc1)c2ccccc2",
+  "numAtoms": 14,
+  "numBonds": 15,
+  "atoms": [
+    {"index": 1, "x": 3, "y": -2.5981, "z": 0, "element": "O"},
+    {"index": 2, "x": 1.5, "y": -2.5981, "z": 0, "element": "C"},
+    {"index": 3, "x": 0.75, "y": -1.299, "z": 0, "element": "C"},
+    {"index": 4, "x": 1.5, "y": 0, "z": 0, "element": "C"},
+    {"index": 5, "x": 0.75, "y": 1.299, "z": 0, "element": "C"},
+    {"index": 6, "x": -0.75, "y": 1.299, "z": 0, "element": "C"},
+    {"index": 7, "x": -1.5, "y": 0, "z": 0, "element": "C"},
+    {"index": 8, "x": -0.75, "y": -1.299, "z": 0, "element": "C"},
+    {"index": 9, "x": 0.75, "y": -3.8971, "z": 0, "element": "C"},
+    {"index": 10, "x": -0.75, "y": -3.8971, "z": 0, "element": "C"},
+    {"index": 11, "x": -1.5, "y": -5.1962, "z": 0, "element": "C"},
+    {"index": 12, "x": -0.75, "y": -6.4952, "z": 0, "element": "C"},
+    {"index": 13, "x": 0.75, "y": -6.4952, "z": 0, "element": "C"},
+    {"index": 14, "x": 1.5, "y": -5.1962, "z": 0, "element": "C"}
+  ],
+  "bonds": [
+    {"atom1": 1, "atom2": 2, "bondType": 2},
+    {"atom1": 2, "atom2": 3, "bondType": 1},
+    {"atom1": 3, "atom2": 4, "bondType": 2},
+    {"atom1": 4, "atom2": 5, "bondType": 1},
+    {"atom1": 5, "atom2": 6, "bondType": 2},
+    {"atom1": 6, "atom2": 7, "bondType": 1},
+    {"atom1": 7, "atom2": 8, "bondType": 2},
+    {"atom1": 2, "atom2": 9, "bondType": 1},
+    {"atom1": 9, "atom2": 10, "bondType": 2},
+    {"atom1": 10, "atom2": 11, "bondType": 1},
+    {"atom1": 11, "atom2": 12, "bondType": 2},
+    {"atom1": 12, "atom2": 13, "bondType": 1},
+    {"atom1": 13, "atom2": 14, "bondType": 2},
+    {"atom1": 8, "atom2": 3, "bondType": 1},
+    {"atom1": 14, "atom2": 9, "bondType": 1}
+  ]
+}

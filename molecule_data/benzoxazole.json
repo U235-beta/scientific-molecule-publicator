@@ -1,0 +1,29 @@
+{
+  "name": "benzoxazole",
+  "smiles": "c1ccc2ocnc2c1",
+  "numAtoms": 9,
+  "numBonds": 10,
+  "atoms": [
+    {"index": 1, "x": 1.5, "y": 0, "z": 0, "element": "C"},
+    {"index": 2, "x": 0.75, "y": -1.299, "z": 0, "element": "C"},
+    {"index": 3, "x": -0.75, "y": -1.299, "z": 0, "element": "C"},
+    {"index": 4, "x": -1.5, "y": 0, "z": 0, "element": "C"},
+    {"index": 5, "x": -2.9672, "y": 0.3119, "z": 0, "element": "O"},
+    {"index": 6, "x": -3.124, "y": 1.8037, "z": 0, "element": "C"},
+    {"index": 7, "x": -1.7537, "y": 2.4138, "z": 0, "element": "N"},
+    {"index": 8, "x": -0.75, "y": 1.299, "z": 0, "element": "C"},
+    {"index": 9, "x": 0.75, "y": 1.299, "z": 0, "element": "C"}
+  ],
+  "bonds": [
+    {"atom1": 1, "atom2": 2, "bondType": 2},
+    {"atom1": 2, "atom2": 3, "bondType": 1},
+    {"atom1": 3, "atom2": 4, "bondType": 2},
+    {"atom1": 4, "atom2": 5, "bondType": 1},
+    {"atom1": 5, "atom2": 6, "bondType": 1},
+    {"atom1": 6, "atom2": 7, "bondType": 2},
+    {"atom1": 7, "atom2": 8, "bondType": 1},
+    {"atom1": 8, "atom2": 9, "bondType": 2},
+    {"atom1": 9, "atom2": 1, "bondType": 1},
+    {"atom1": 8, "atom2": 4, "bondType": 1}
+  ]
+}

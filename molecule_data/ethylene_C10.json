@@ -1,0 +1,29 @@
+{
+  "name": "ethylene_C10",
+  "smiles": "CCCCCCCCCC",
+  "numAtoms": 10,
+  "numBonds": 9,
+  "atoms": [
+    {"index": 1, "x": 0, "y": 0, "z": 0, "element": "C"},
+    {"index": 2, "x": 1.299, "y": 0.75, "z": 0, "element": "C"},
+    {"index": 3, "x": 2.5981, "y": 0, "z": 0, "element": "C"},
+    {"index": 4, "x": 3.8971, "y": 0.75, "z": 0, "element": "C"},
+    {"index": 5, "x": 5.1962, "y": 0, "z": 0, "element": "C"},
+    {"index": 6, "x": 6.4952, "y": 0.75, "z": 0, "element": "C"},
+    {"index": 7, "x": 7.7942, "y": 0, "z": 0, "element": "C"},
+    {"index": 8, "x": 9.0933, "y": 0.75, "z": 0, "element": "C"},
+    {"index": 9, "x": 10.3923, "y": 0, "z": 0, "element": "C"},
+    {"index": 10, "x": 11.6913, "y": 0.75, "z": 0, "element": "C"}
+  ],
+  "bonds": [
+    {"atom1": 1, "atom2": 2, "bondType": 1},
+    {"atom1": 2, "atom2": 3, "bondType": 1},
+    {"atom1": 3, "atom2": 4, "bondType": 1},
+    {"atom1": 4, "atom2": 5, "bondType": 1},
+    {"atom1": 5, "atom2": 6, "bondType": 1},
+    {"atom1": 6, "atom2": 7, "bondType": 1},
+    {"atom1": 7, "atom2": 8, "bondType": 1},
+    {"atom1": 8, "atom2": 9, "bondType": 1},
+    {"atom1": 9, "atom2": 10, "bondType": 1}
+  ]
+}

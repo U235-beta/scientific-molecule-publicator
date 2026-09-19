@@ -1,0 +1,42 @@
+{
+  "name": "PET_dimer",
+  "smiles": "O=C(Oc1ccc(C(=O)OCCO)cc1)C",
+  "numAtoms": 16,
+  "numBonds": 16,
+  "atoms": [
+    {"index": 1, "x": 3, "y": -2.5981, "z": 0, "element": "O"},
+    {"index": 2, "x": 3.75, "y": -1.299, "z": 0, "element": "C"},
+    {"index": 3, "x": 3, "y": 0, "z": 0, "element": "O"},
+    {"index": 4, "x": 1.5, "y": 0, "z": 0, "element": "C"},
+    {"index": 5, "x": 0.75, "y": -1.299, "z": 0, "element": "C"},
+    {"index": 6, "x": -0.75, "y": -1.299, "z": 0, "element": "C"},
+    {"index": 7, "x": -1.5, "y": 0, "z": 0, "element": "C"},
+    {"index": 8, "x": -3, "y": 0, "z": 0, "element": "C"},
+    {"index": 9, "x": -3.75, "y": -1.299, "z": 0, "element": "O"},
+    {"index": 10, "x": -3.75, "y": 1.299, "z": 0, "element": "O"},
+    {"index": 11, "x": -5.25, "y": 1.299, "z": 0, "element": "C"},
+    {"index": 12, "x": -6, "y": 2.5981, "z": 0, "element": "C"},
+    {"index": 13, "x": -7.5, "y": 2.5981, "z": 0, "element": "O"},
+    {"index": 14, "x": -0.75, "y": 1.299, "z": 0, "element": "C"},
+    {"index": 15, "x": 0.75, "y": 1.299, "z": 0, "element": "C"},
+    {"index": 16, "x": 5.25, "y": -1.299, "z": 0, "element": "C"}
+  ],
+  "bonds": [
+    {"atom1": 1, "atom2": 2, "bondType": 2},
+    {"atom1": 2, "atom2": 3, "bondType": 1},
+    {"atom1": 3, "atom2": 4, "bondType": 1},
+    {"atom1": 4, "atom2": 5, "bondType": 2},
+    {"atom1": 5, "atom2": 6, "bondType": 1},
+    {"atom1": 6, "atom2": 7, "bondType": 2},
+    {"atom1": 7, "atom2": 8, "bondType": 1},
+    {"atom1": 8, "atom2": 9, "bondType": 2},
+    {"atom1": 8, "atom2": 10, "bondType": 1},
+    {"atom1": 10, "atom2": 11, "bondType": 1},
+    {"atom1": 11, "atom2": 12, "bondType": 1},
+    {"atom1": 12, "atom2": 13, "bondType": 1},
+    {"atom1": 7, "atom2": 14, "bondType": 1},
+    {"atom1": 14, "atom2": 15, "bondType": 2},
+    {"atom1": 2, "atom2": 16, "bondType": 1},
+    {"atom1": 15, "atom2": 4, "bondType": 1}
+  ]
+}
