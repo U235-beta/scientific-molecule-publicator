@@ -1,0 +1,19 @@
+{
+  "name": "enone",
+  "smiles": "CC(=O)C=C",
+  "numAtoms": 5,
+  "numBonds": 4,
+  "atoms": [
+    {"index": 1, "x": 0, "y": 0, "z": 0, "element": "C"},
+    {"index": 2, "x": 1.299, "y": 0.75, "z": 0, "element": "C"},
+    {"index": 3, "x": 1.299, "y": 2.25, "z": 0, "element": "O"},
+    {"index": 4, "x": 2.5981, "y": 0, "z": 0, "element": "C"},
+    {"index": 5, "x": 3.8971, "y": 0.75, "z": 0, "element": "C"}
+  ],
+  "bonds": [
+    {"atom1": 1, "atom2": 2, "bondType": 1},
+    {"atom1": 2, "atom2": 3, "bondType": 2},
+    {"atom1": 2, "atom2": 4, "bondType": 1},
+    {"atom1": 4, "atom2": 5, "bondType": 2}
+  ]
+}

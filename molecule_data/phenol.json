@@ -1,0 +1,24 @@
+{
+  "name": "phenol",
+  "smiles": "Oc1ccccc1",
+  "numAtoms": 7,
+  "numBonds": 7,
+  "atoms": [
+    {"index": 1, "x": 3, "y": 0, "z": 0, "element": "O"},
+    {"index": 2, "x": 1.5, "y": 0, "z": 0, "element": "C"},
+    {"index": 3, "x": 0.75, "y": -1.299, "z": 0, "element": "C"},
+    {"index": 4, "x": -0.75, "y": -1.299, "z": 0, "element": "C"},
+    {"index": 5, "x": -1.5, "y": 0, "z": 0, "element": "C"},
+    {"index": 6, "x": -0.75, "y": 1.299, "z": 0, "element": "C"},
+    {"index": 7, "x": 0.75, "y": 1.299, "z": 0, "element": "C"}
+  ],
+  "bonds": [
+    {"atom1": 1, "atom2": 2, "bondType": 1},
+    {"atom1": 2, "atom2": 3, "bondType": 2},
+    {"atom1": 3, "atom2": 4, "bondType": 1},
+    {"atom1": 4, "atom2": 5, "bondType": 2},
+    {"atom1": 5, "atom2": 6, "bondType": 1},
+    {"atom1": 6, "atom2": 7, "bondType": 2},
+    {"atom1": 7, "atom2": 2, "bondType": 1}
+  ]
+}
